@@ -20,7 +20,6 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         <engine name="cordova-ios" version=">=5.0.0"/>
     </engines>-->
 
-    <dependency id="cordova-plugin-cocoapod-support"/>
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
             <feature name="FirebaseAnalytics">
@@ -31,6 +30,19 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 
         <header-file src="src/ios/FirebaseAnalyticsPlugin.h" />
         <source-file src="src/ios/FirebaseAnalyticsPlugin.m" />
+
+        <header-file src="src/ios/Firebase/Firebase.h" />
+
+        <framework custom="true" src="src/ios/Firebase/Analytics/FIRAnalyticsConnector.framework" />
+        <framework custom="true" src="src/ios/Firebase/Analytics/FirebaseAnalytics.framework" />
+        <framework custom="true" src="src/ios/Firebase/Analytics/FirebaseCore.framework" />
+        <framework custom="true" src="src/ios/Firebase/Analytics/FirebaseCoreDiagnostics.framework" />
+        <framework custom="true" src="src/ios/Firebase/Analytics/FirebaseInstanceID.framework" />
+        <framework custom="true" src="src/ios/Firebase/Analytics/GoogleAppMeasurement.framework.framework" />
+        <framework custom="true" src="src/ios/Firebase/Analytics/GoogleDataTransport.framework.framework" />
+        <framework custom="true" src="src/ios/Firebase/Analytics/GoogleDataTransportCCTSupport.framework.framework" />
+        <framework custom="true" src="src/ios/Firebase/Analytics/GoogleUtilities.framework.framework" />
+        <framework custom="true" src="src/ios/Firebase/Analytics/nanopb.framework" />
 
         <podspec>
             <config>
