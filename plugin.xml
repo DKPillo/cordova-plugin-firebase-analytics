@@ -38,10 +38,10 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         <framework custom="true" src="src/ios/Firebase/Analytics/FirebaseCore.framework" />
         <framework custom="true" src="src/ios/Firebase/Analytics/FirebaseCoreDiagnostics.framework" />
         <framework custom="true" src="src/ios/Firebase/Analytics/FirebaseInstanceID.framework" />
-        <framework custom="true" src="src/ios/Firebase/Analytics/GoogleAppMeasurement.framework.framework" />
-        <framework custom="true" src="src/ios/Firebase/Analytics/GoogleDataTransport.framework.framework" />
-        <framework custom="true" src="src/ios/Firebase/Analytics/GoogleDataTransportCCTSupport.framework.framework" />
-        <framework custom="true" src="src/ios/Firebase/Analytics/GoogleUtilities.framework.framework" />
+        <framework custom="true" src="src/ios/Firebase/Analytics/GoogleAppMeasurement.framework" />
+        <framework custom="true" src="src/ios/Firebase/Analytics/GoogleDataTransport.framework" />
+        <framework custom="true" src="src/ios/Firebase/Analytics/GoogleDataTransportCCTSupport.framework" />
+        <framework custom="true" src="src/ios/Firebase/Analytics/GoogleUtilities.framework" />
         <framework custom="true" src="src/ios/Firebase/Analytics/nanopb.framework" />
 
         <podspec>
